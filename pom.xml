@@ -62,7 +62,7 @@
     </dependencies>
 
     <build>
-        <finalName>springboot-war-demo</finalName>
+        <finalName>DigiStoreWar</finalName>
 
         <plugins>
 			<!-- Spring Boot Plugin -->
