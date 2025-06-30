@@ -4,11 +4,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class Foods {
+public class HelloController {
 
-	@GetMapping("/foods")
-	public String digistore() {
-		return "Food is good for health.";
+	@GetMapping("/hello")
+	public String home() {
+		return "Welcome to SpringBoot - Pranik Nikose";
 	}
-
 }
